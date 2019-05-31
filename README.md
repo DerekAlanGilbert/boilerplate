@@ -1,34 +1,21 @@
-# boilerplate
+# Vue JS Enterprise Boilerplate Docs
 
-## Project setup
-```
-npm install
-```
+> This project is made with vuepress, a static site generator by the vue core team for docs and other sites.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Core includes:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- Vuex
+- Vue router
+- Progressive Web App Support
 
-### Run your tests
-```
-npm run test
-```
+---
 
-### Lints and fixes files
-```
-npm run lint
-```
+System Requirements:
 
-### Run your unit tests
-```
-npm run test:unit
-```
+- node: `10.10.1`
+- npm: `6.7.0`
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Up and Running
+
+1. Npm i
+2. Npm serve

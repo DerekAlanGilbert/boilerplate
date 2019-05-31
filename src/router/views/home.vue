@@ -1,23 +1,26 @@
 <script>
 import appConfig from '@src/app.config'
-import Test from '@components/test.vue'
+import Content from '@components/content'
 import Layout from '@layouts/main'
 
 export default {
-  page: {
-    title: 'Home',
-    meta: [{ name: 'description', content: appConfig.description }],
-  },
-  components: {
-    Layout,
-    Test,
-  },
+	mounted() {
+		console.log('hello from homepage')
+	},
+	page: {
+		title: 'Home',
+		meta: [{ name: 'description', content: appConfig.description }],
+	},
+	components: {
+		Layout,
+		Content,
+	},
 }
 </script>
 
 <template>
-  <Layout>
-    <h1>Home Page</h1>
-    <Test text="Welcome" />
-  </Layout>
+	<Layout>
+		<h1>Home</h1>
+		<Content msg="Welcome to this enterprise vue starter"/>
+	</Layout>
 </template>

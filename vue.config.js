@@ -12,7 +12,7 @@ module.exports = {
     },
   },
   // css: {
-  //   // Enable CSS source maps.
-  //   sourceMap: true,
+  // Enable CSS source maps.
+  sourceMap: true,
   // },
 }
